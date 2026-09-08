@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import TopBar from './components/TopBar'
+import MidSecction from './components/MidSecction'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <TopBar />
+      <MidSecction />
     </>
   )
 }
