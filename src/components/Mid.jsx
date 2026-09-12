@@ -5,28 +5,28 @@ import CourseCard from "./CourseCard"
 const cursos = [
   {
     id: 1,
-    emogi: "⚛️",
+    emoji: "⚛️",
     titulo: "React basico",
     descripcion: "Componentes, props, estado y eventos. Todo lo que necesitas para empezar.",
     buttonText: "Principiante"
   },
   {
     id: 2,
-    emogi: "🔁",
+    emoji: "🔁",
     titulo: "React Hooks",
     descripcion: "Profundiza en useState, useEffect y crea tus propios custom hooks.",
     buttonText: "Intermedio"
   },
   {
     id: 3,
-    emogi: "📂",
+    emoji: "📂",
     titulo: "Estado Global",
     descripcion: "Gestiona el estado con Context API y aprende cuando usarlo.",
     buttonText: "Intermedio"
   },
   {
     id: 4,
-    emogi: "🚀",
+    emoji: "🚀",
     titulo: "React Avanzando",
     descripcion: "Rendimiento, patrones avanzados y arquitectura para proyectos grandes.",
     buttonText: "Avanzado"
@@ -43,7 +43,7 @@ function Mid() {
         {cursos.map((curso) =>
           <CourseCard
             key={curso.id}
-            emogi={curso.emogi}
+            emoji={curso.emoji}
             titulo={curso.titulo}
             descripcion={curso.descripcion}
             buttonText={curso.buttonText}
