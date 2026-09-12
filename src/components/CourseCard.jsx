@@ -1,3 +1,5 @@
+import './CourseCard.css'
+
 function CourseCard({ emoji, titulo, descripcion, buttonText }) { 
     return (
         <div className="cursos">

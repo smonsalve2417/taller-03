@@ -1,3 +1,5 @@
+import './Footer.css'
+
 function Footer() {
   return (
     <div className="footer" id="nosotros">
@@ -7,5 +9,3 @@ function Footer() {
 }
 
 export default Footer
-
-//hero

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Bottom.css'
 
 function Bottom() {
   const [conteo, setConteo] = useState(0);
@@ -15,7 +16,7 @@ function Bottom() {
       <p className="subheading">Usa los botones para ajustar el numero</p>
       <div className="counter">
         <button className="button button--circle" onClick={handleDecrement}>-</button>
-        <span className="button__value">{conteo}</span>
+        <span className="bottom__value">{conteo}</span>
         <button className="button button--circle" onClick={handleIncrement}>+</button>
       </div>
       <p className="subheading">estudiantes inscritos</p>

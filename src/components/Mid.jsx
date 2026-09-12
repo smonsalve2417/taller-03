@@ -1,6 +1,6 @@
 import CourseCard from "./CourseCard"
 
-
+import './Mid.css'
 
 const cursos = [
   {
